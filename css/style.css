@@ -1,0 +1,126 @@
+@font-face {
+    font-family:'Formula-500';
+    src: url(../fonts/PPFormula-Extrabold.woff2);
+}
+
+@font-face {
+    font-family:'Formula-300';
+    src: url(../fonts/PPFormula-Medium.woff2);
+}
+
+@font-face {
+    font-family:'Mori-100';
+    src: url(../fonts/PPMori-Regular.woff2);
+}
+
+h1 {
+font-family: 'Formula-500';
+    color: #6e3313b6;
+    font-size: 26px;
+    letter-spacing: .6px;
+}
+
+
+h2 {
+font-family: 'Mori-100';
+    color: #6e3313b6;
+    font-size: 18px;
+}
+
+h3 {
+font-family: 'Formula-300';
+    color: #05C305;
+    font-size: 25px;
+    letter-spacing: .6px;
+}
+
+h5 {
+  font-family: 'Formula-500';
+    color: #05C305;
+    font-size: 18px;
+    letter-spacing: .6px;  
+}
+
+p{
+  font-family: 'Mori-100';
+    color: #F3CCA3;  
+    font-size: 12 px;
+}
+
+.type-personaje {
+  font-family: 'Formula-500';
+    color: #6e3313b6;
+    font-size: 24px;
+    letter-spacing: .6px;  
+}
+
+.bg-tumba {
+    background-color: #585776;
+}
+
+.bg-papel {
+background-color: #F3CCA3;
+}
+
+.bg-papel-trazo {
+background-color: #F3CCA3;
+border: solid;
+border-color: #6f3f1c;
+border-width: 10px;
+box-shadow: 
+        inset 5px 5px 10px rgba(255, 255, 255, 0.5), 
+        inset -5px -5px 10px rgba(0, 0, 0, 0.3);
+    border: 10px solid #a65820;
+    border-radius: 8px;
+}
+
+.verde-planta {
+color: #05C305;
+}
+
+.nav-enlace-verde {
+    color: #05C305;
+    font-family: 'Formula-500';
+    letter-spacing: .5px;
+}
+
+.nav-enlace-verde:hover {
+    color: #56f656;
+
+}
+
+.navbar-biselado {
+    box-shadow: 
+        inset 2px 2px 5px #ffffff66,
+        inset -6px -5px 6px #0000004d;    
+    
+    border-bottom: 1px solid #00000033;
+}
+
+.bg-pattern {
+    background-image: url('../img/Site-background-April.png');
+    
+    background-repeat: repeat; 
+    
+    background-size: 200px; 
+    background-attachment: fixed;
+}
+
+.sombra-cafe {
+    box-shadow: 0px 10px 20px #6e3313b6; 
+}
+
+
+.contenedor-sombra {
+    background-color: #6e3313b6;
+    
+    -webkit-mask-image: linear-gradient(to left, transparent, black 10%, black 95%, transparent);
+    padding: 30px;
+}
+
+.contenedor-sombra-reves {
+    background-color: #6e3313b6;
+    
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 95%, transparent);
+    padding: 30px;
+}
